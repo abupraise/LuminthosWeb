@@ -73,9 +73,9 @@ const Hero = () => {
       </div>
 
       {/* Canvas for ParticleField */}
-      <Canvas className="absolute inset-0 z-10">
+      {/* <Canvas className="absolute inset-0 z-10">
         <ParticleField />
-      </Canvas>
+      </Canvas> */}
 
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black z-20" />
