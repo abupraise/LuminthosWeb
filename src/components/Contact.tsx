@@ -30,7 +30,7 @@ const Contact = () => {
                   <input
                     type="text"
                     className="w-full px-4 py-3 rounded-lg bg-black/50 border border-red-500/20 text-white focus:outline-none focus:border-red-500"
-                    placeholder="John Doe"
+                    placeholder="Full name"
                   />
                 </motion.div>
 
@@ -44,7 +44,7 @@ const Contact = () => {
                   <input
                     type="email"
                     className="w-full px-4 py-3 rounded-lg bg-black/50 border border-red-500/20 text-white focus:outline-none focus:border-red-500"
-                    placeholder="john@example.com"
+                    placeholder="name@example.com"
                   />
                 </motion.div>
 
