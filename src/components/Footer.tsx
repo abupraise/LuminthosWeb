@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="bg-black relative">
       <div className="absolute inset-0 bg-gradient-to-b from-red-950 to-black opacity-50" />
-      
+
       <div className="relative container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
@@ -50,13 +50,13 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Newsletter</h4>
             <p className="text-white/70 mb-4">Stay updated with our latest news and updates.</p>
-            <div className="flex">
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-0">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 px-4 py-2 bg-white/5 border border-red-500/20 rounded-l-lg focus:outline-none focus:border-red-500 text-white"
+                className="w-full sm:w-auto flex-1 px-4 py-2 bg-white/5 border border-red-500/20 rounded-lg sm:rounded-l-lg sm:rounded-r-none focus:outline-none focus:border-red-500 text-white"
               />
-              <button className="px-4 py-2 bg-red-500 text-white rounded-r-lg hover:bg-red-600 transition-colors">
+              <button className="w-full sm:w-auto px-4 py-2 bg-red-500 text-white rounded-lg sm:rounded-l-none sm:rounded-r-lg hover:bg-red-600 transition-colors">
                 Subscribe
               </button>
             </div>
